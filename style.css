@@ -1,0 +1,101 @@
+div.avatar {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+body {
+    text-align: center;
+    padding-top: 30px;
+    background-color: #1d96d7;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    color: #253b56;
+}
+
+body img {
+    padding-bottom: 15px;
+}
+
+.box {
+    padding: 15px;
+    background-color: white;
+    width: 60%;
+    border-radius: 25px;
+}
+
+.register-menu h2 {
+    font-size: 28px;
+    line-height: 36px;
+    padding: 15px 85px;
+    font-weight: 100;
+}
+
+.register-menu i {
+    font-size: 36px;
+    padding: 25px;
+}
+
+.register-menu table {
+    text-align: center;
+}
+
+.signin-container .signinSubmit {
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    background: 0;
+    width: 170px;
+    border: 4px solid #e3e3e3;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    overflow: hidden;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    border-radius: 15px;
+}
+
+.signin-container .signinSubmit:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    background: #66ff33;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: -15px 0 0 -15px;
+    opacity: 0;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.signin-container .signinSubmit:hover,
+.signin-container .signinSubmit:active,
+.signin-container .signinSubmit:focus {
+    border-color: #66ff33;
+}
+
+.signin-container .signinSubmit:hover span,
+.signin-container .signinSubmit:active span,
+.signin-container .signinSubmit:focus span {
+    color: #66ff33;
+}
+
+.signin-container .signinSubmit:active span,
+.signin-container .signinSubmit:focus span {
+    color: #ffffff;
+}
+
+.signin-container .signinSubmit:active:before,
+.signin-container .signinSubmit:focus:before {
+    opacity: 1;
+    -webkit-transform: scale(10);
+    transform: scale(10);
+}

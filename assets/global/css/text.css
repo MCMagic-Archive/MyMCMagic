@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Minecraftia;
+    src: url('/assets/global/css/Minecraftia.ttf');
+}
+
+.staff-cm {
+    color: mediumseagreen;
+}
+
+.staff-manager {
+    color: orange;
+}
+
+.donor-shareholder {
+    color: #F644FC;
+}
+
+.donor-dvc {
+    color: #00e6e6;
+}
+
+.special {
+    color: #cc00cc;
+}
+
+.mc-text {
+    font-family: Minecraftia;
+    font-size: 20px;
+    color: #6699ff;
+}
+
+.privacy ol {
+    list-style-type: none;
+    counter-reset: item;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    tab-size: 0;
+    margin-bottom: 0.4em;
+}
+
+.privacy ol > li {
+    display: table;
+    counter-increment: item;
+    margin-bottom: 0.6em;
+}
+
+.privacy ol > li:before {
+    content: counters(item, ".") ". ";
+    display: table-cell;
+    padding-right: 0.6em;
+}
+
+.privacy li ol > li {
+    margin: 0;
+}
+
+.privacy li ol > li:before {
+    content: counters(item, ".") " ";
+}
+
+.privacy p {
+    font-size: 16px;
+}
+
+.legal {
+    background-color: #eff3f8;
+}
